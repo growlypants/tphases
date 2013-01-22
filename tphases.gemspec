@@ -20,6 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'activesupport'
+  gem.add_dependency 'actionpack', '~> 3.0.0'
 
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'debugger'
